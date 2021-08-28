@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1067B182B1817F700FF7D33 /* WledLib in Frameworks */ = {isa = PBXBuildFile; productRef = E1067B172B1817F700FF7D33 /* WledLib */; };
+		E143AE9A2B0D6A47007FF078 /* DeviceActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143AE702B0D1545007FF078 /* DeviceActor.swift */; };
+		E143AEA52B10DC0E007FF078 /* DeviceCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E143AEA42B10DC0E007FF078 /* DeviceCollection.swift */; };
+		E15BD4952B12F358004686B8 /* DeviceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BD4942B12F358004686B8 /* DeviceProvider.swift */; };
+		E15BD4962B12F362004686B8 /* CollectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BD4922B12F2E3004686B8 /* CollectionProvider.swift */; };
+		E15BD4992B12F3D5004686B8 /* DeviceProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BD4982B12F3D5004686B8 /* DeviceProviderExtension.swift */; };
+		E15BD49B2B12F40F004686B8 /* WledDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BD49A2B12F40F004686B8 /* WledDeviceExtension.swift */; };
+		E16512422B16D11D000F1B17 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = E16512412B16D11D000F1B17 /* Documentation.docc */; };
+		E173415D2B0468DD00C14C7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E173415C2B0468DD00C14C7E /* ContentView.swift */; };
+		E17341692B04693B00C14C7E /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17341672B04690300C14C7E /* Main.swift */; };
+		E173418A2B04747400C14C7E /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17341892B04747400C14C7E /* DeviceView.swift */; };
+		E1C1AF772B13C55800171433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1AF762B13C55800171433 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1067B192B1823FC00FF7D33 /* Example-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Example-01.png"; path = "../../../../Desktop/Example-01.png"; sourceTree = "<group>"; };
+		E1067B1B2B18241200FF7D33 /* Example-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Example-01.png"; sourceTree = "<group>"; };
+		E143AE702B0D1545007FF078 /* DeviceActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActor.swift; sourceTree = "<group>"; };
+		E143AEA42B10DC0E007FF078 /* DeviceCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollection.swift; sourceTree = "<group>"; };
+		E15BD4922B12F2E3004686B8 /* CollectionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionProvider.swift; sourceTree = "<group>"; };
+		E15BD4942B12F358004686B8 /* DeviceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceProvider.swift; sourceTree = "<group>"; };
+		E15BD4982B12F3D5004686B8 /* DeviceProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceProviderExtension.swift; sourceTree = "<group>"; };
+		E15BD49A2B12F40F004686B8 /* WledDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WledDeviceExtension.swift; sourceTree = "<group>"; };
+		E15E94252B131B9700CFE1B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E15E94272B131EBF00CFE1B7 /* WLED_OSX.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = WLED_OSX.entitlements; sourceTree = "<group>"; };
+		E16512412B16D11D000F1B17 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		E17341582B0468DD00C14C7E /* WLED-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WLED-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E173415C2B0468DD00C14C7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E17341672B04690300C14C7E /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		E17341892B04747400C14C7E /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		E1AC66572B164CA400247DDF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		E1C1AF762B13C55800171433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17341552B0468DD00C14C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1067B182B1817F700FF7D33 /* WledLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A9E5B42918D1C3005B5C22 = {
+			isa = PBXGroup;
+			children = (
+				E1067B1A2B18240100FF7D33 /* ExampleImages */,
+				E15E94252B131B9700CFE1B7 /* README.md */,
+				E1067B192B1823FC00FF7D33 /* Example-01.png */,
+				E17341592B0468DD00C14C7E /* WLED-OSX */,
+				C9A9E5BE2918D1C3005B5C22 /* Products */,
+				E15E942D2B13999700CFE1B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A9E5BE2918D1C3005B5C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17341582B0468DD00C14C7E /* WLED-OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1067B1A2B18240100FF7D33 /* ExampleImages */ = {
+			isa = PBXGroup;
+			children = (
+				E1067B1B2B18241200FF7D33 /* Example-01.png */,
+			);
+			path = ExampleImages;
+			sourceTree = "<group>";
+		};
+		E15BD4912B12F2D4004686B8 /* ViewProtocolls */ = {
+			isa = PBXGroup;
+			children = (
+				E15BD4922B12F2E3004686B8 /* CollectionProvider.swift */,
+				E15BD4942B12F358004686B8 /* DeviceProvider.swift */,
+			);
+			path = ViewProtocolls;
+			sourceTree = "<group>";
+		};
+		E15BD4972B12F3BE004686B8 /* ViewProtocolExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				E15BD4982B12F3D5004686B8 /* DeviceProviderExtension.swift */,
+				E15BD49A2B12F40F004686B8 /* WledDeviceExtension.swift */,
+			);
+			path = ViewProtocolExtensions;
+			sourceTree = "<group>";
+		};
+		E15E94282B1396A400CFE1B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E143AE702B0D1545007FF078 /* DeviceActor.swift */,
+				E143AEA42B10DC0E007FF078 /* DeviceCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E15E942D2B13999700CFE1B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17341592B0468DD00C14C7E /* WLED-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				E1AC66572B164CA400247DDF /* .gitignore */,
+				E15E94272B131EBF00CFE1B7 /* WLED_OSX.entitlements */,
+				E1C1AF762B13C55800171433 /* Assets.xcassets */,
+				E15E94282B1396A400CFE1B7 /* Model */,
+				E15BD4972B12F3BE004686B8 /* ViewProtocolExtensions */,
+				E15BD4912B12F2D4004686B8 /* ViewProtocolls */,
+				E17341922B050A2C00C14C7E /* View */,
+				E16512412B16D11D000F1B17 /* Documentation.docc */,
+			);
+			path = "WLED-OSX";
+			sourceTree = "<group>";
+		};
+		E17341922B050A2C00C14C7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E17341672B04690300C14C7E /* Main.swift */,
+				E173415C2B0468DD00C14C7E /* ContentView.swift */,
+				E17341892B04747400C14C7E /* DeviceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E17341572B0468DD00C14C7E /* WLED-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17341642B0468DF00C14C7E /* Build configuration list for PBXNativeTarget "WLED-OSX" */;
+			buildPhases = (
+				E17341542B0468DD00C14C7E /* Sources */,
+				E17341552B0468DD00C14C7E /* Frameworks */,
+				E17341562B0468DD00C14C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WLED-OSX";
+			packageProductDependencies = (
+				E1067B172B1817F700FF7D33 /* WledLib */,
+			);
+			productName = "wled-native-bar";
+			productReference = E17341582B0468DD00C14C7E /* WLED-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A9E5B52918D1C3005B5C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E17341572B0468DD00C14C7E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C9A9E5B82918D1C3005B5C22 /* Build configuration list for PBXProject "wled-osx" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"fr-CA",
+			);
+			mainGroup = C9A9E5B42918D1C3005B5C22;
+			packageReferences = (
+				E1067B162B1817F700FF7D33 /* XCRemoteSwiftPackageReference "WledLib" */,
+			);
+			productRefGroup = C9A9E5BE2918D1C3005B5C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17341572B0468DD00C14C7E /* WLED-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17341562B0468DD00C14C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C1AF772B13C55800171433 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17341542B0468DD00C14C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E173418A2B04747400C14C7E /* DeviceView.swift in Sources */,
+				E143AE9A2B0D6A47007FF078 /* DeviceActor.swift in Sources */,
+				E15BD49B2B12F40F004686B8 /* WledDeviceExtension.swift in Sources */,
+				E16512422B16D11D000F1B17 /* Documentation.docc in Sources */,
+				E15BD4952B12F358004686B8 /* DeviceProvider.swift in Sources */,
+				E143AEA52B10DC0E007FF078 /* DeviceCollection.swift in Sources */,
+				E15BD4962B12F362004686B8 /* CollectionProvider.swift in Sources */,
+				E17341692B04693B00C14C7E /* Main.swift in Sources */,
+				E173415D2B0468DD00C14C7E /* ContentView.swift in Sources */,
+				E15BD4992B12F3D5004686B8 /* DeviceProviderExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9A9E5CF2918D1C4005B5C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A9E5D02918D1C4005B5C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E17341652B0468DF00C14C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIconMac;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "WLED-OSX/WLED_OSX.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 9R6M6A9AUJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WLED-OSX/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WLED;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wurzel8.de.wled-native-bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E17341662B0468DF00C14C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIconMac;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "WLED-OSX/WLED_OSX.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 9R6M6A9AUJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WLED-OSX/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WLED;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wurzel8.de.wled-native-bar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A9E5B82918D1C3005B5C22 /* Build configuration list for PBXProject "wled-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A9E5CF2918D1C4005B5C22 /* Debug */,
+				C9A9E5D02918D1C4005B5C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17341642B0468DF00C14C7E /* Build configuration list for PBXNativeTarget "WLED-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17341652B0468DF00C14C7E /* Debug */,
+				E17341662B0468DF00C14C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1067B162B1817F700FF7D33 /* XCRemoteSwiftPackageReference "WledLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sqrt0b1000/WledLib";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1067B172B1817F700FF7D33 /* WledLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1067B162B1817F700FF7D33 /* XCRemoteSwiftPackageReference "WledLib" */;
+			productName = WledLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C9A9E5B52918D1C3005B5C22 /* Project object */;
+}
